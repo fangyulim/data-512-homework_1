@@ -4,21 +4,21 @@ DATA 512 Homework 1: Professionalism & Reproducibility
 
 ## Goal
     - The goal of this assignment is to construct, analyze, and publish a dataset of monthly article traffic for a set of pages from English Wikipedia from July 1, 2015 through September 30, 2024. 
-    - The list of articles is determined in the [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv) file.
+    - The list of articles is determined in the rare-disease_cleaned.AUG.2024.csv file.
 
 ## License:
     - **Wikimedia**: 
-        [Wikimedia API Reference](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html)
+[Wikimedia API Reference](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html)
         - Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA 3.0) 
         - GNU Free Documentation License (GFDL)
             - My dataset was created using the Wikimedia API, which is governed by their Terms of Use. By utilizing this data, you agree to comply with the attribution requirements specified by the CC-BY-SA license. Any adaptations or modifications of the dataset must be shared under a similar license. Care should be taken to respect user privacy and adhere to applicable data protection regulations. All interactions with the API should comply with its usage guidelines.
 
     - **rare-disease_cleaned.AUG.2024.csv** 
-        [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv)
+[rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv) 
         - Creative Commons (CC-BY license)
     
     - **wp_article_views_example.ipynb** 
-        [wp_article_views_example.ipynb](wp_article_views_example.ipynb)
+[wp_article_views_example.ipynb](wp_article_views_example.ipynb)
     This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
 
 ## Project Structure
@@ -29,12 +29,12 @@ project-main/ <br>
 |-- [wp_article_views_example.ipynb](wp_article_views_example.ipynb) <br>
 | <br>
 |-- output/ <br>
-|   |-- rare-disease_monthly_desktop_start201507-end202409.json <br>
-|   |-- rare-disease_monthly_mobile_start201507-end202409.json <br>
-|   |-- rare-disease_monthly_cumulative_start201507-end202409.json <br>
-|   |-- max_avg_min_avg.png <br>
-|   |-- top_10_peak_page_views.png <br>
-|   |-- fewest_months_of_data.png <br>
+|   |-- [rare-disease_monthly_desktop_start201507-end202409.json](rare-disease_monthly_desktop_start201507-end202409.json) <br>
+|   |-- [rare-disease_monthly_mobile_start201507-end202409.json](rare-disease_monthly_mobile_start201507-end202409.json) <br>
+|   |-- [rare-disease_monthly_cumulative_start201507-end202409.json](rare-disease_monthly_cumulative_start201507-end202409.json) <br>
+|   |-- [max_avg_min_avg.png](max_avg_min_avg.png) <br>
+|   |-- [top_10_peak_page_views.png](top_10_peak_page_views.png) <br>
+|   |-- [fewest_months_of_data.png](fewest_months_of_data.png) <br>
 
 
 ## Final output files
