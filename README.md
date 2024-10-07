@@ -8,8 +8,8 @@ DATA 512 Homework 1: Professionalism & Reproducibility
 
 ## License:
   - [Wikimedia API Reference](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html) 
-  - Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA 3.0) 
-    - GNU Free Documentation License (GFDL) 
+      - Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA 3.0) 
+      - GNU Free Documentation License (GFDL) 
       - My dataset was created using the Wikimedia API, which is governed by their Terms of Use. By utilizing this data, you agree to comply with the attribution requirements specified by the CC-BY-SA license. Any adaptations or modifications of the dataset must be shared under a similar license. Care should be taken to respect user privacy and adhere to applicable data protection regulations. All interactions with the API should comply with its usage guidelines.
 
     - [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv) 
