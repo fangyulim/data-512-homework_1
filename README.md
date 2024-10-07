@@ -22,34 +22,34 @@ DATA 512 Homework 1: Professionalism & Reproducibility
     This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
 
 ## Project Structure
-project-main/ 
-|
-|-- HW1_Professionalism_Reproducibility_FangYuLim.ipynb
-|-- [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv)
-|-- [wp_article_views_example.ipynb](wp_article_views_example.ipynb)
-|
-|-- output/
-|   |-- rare-disease_monthly_desktop_start201507-end202409.json
-|   |-- rare-disease_monthly_mobile_start201507-end202409.json
-|   |-- rare-disease_monthly_cumulative_start201507-end202409.json
-|   |-- max_avg_min_avg.png
-|   |-- top_10_peak_page_views.png
-|   |-- fewest_months_of_data.png
+project-main/ <br>
+| <br>
+|-- HW1_Professionalism_Reproducibility_FangYuLim.ipynb <br>
+|-- [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv) <br>
+|-- [wp_article_views_example.ipynb](wp_article_views_example.ipynb) <br>
+| <br>
+|-- output/ <br>
+|   |-- rare-disease_monthly_desktop_start201507-end202409.json <br>
+|   |-- rare-disease_monthly_mobile_start201507-end202409.json <br>
+|   |-- rare-disease_monthly_cumulative_start201507-end202409.json <br>
+|   |-- max_avg_min_avg.png <br>
+|   |-- top_10_peak_page_views.png <br>
+|   |-- fewest_months_of_data.png <br>
 
 
 ## Final output files
     - The three JSON files follow the same data schema:
-        - rare-disease_monthly_desktop_start201507-end202409.json
+        - rare-disease_monthly_desktop_start201507-end202409.json  <br>
           This file contains the monthly desktop page traffic for the subset of articles from July 2015 - Sept 2024.
         
-        - rare-disease_monthly_mobile_start201507-end202409.json
+        - rare-disease_monthly_mobile_start201507-end202409.json <br>
           This file contains the monthly mobile page traffic for the subset of articles from July 2015 - Sept 2024. (mobile-web and mobile-app)
         
-        - rare-disease_monthly_cumulative_start201507-end202409.json
+        - rare-disease_monthly_cumulative_start201507-end202409.json  <br>
           This file contains the cummulative mobile page traffic for the subset of articles from July 2015 - Sept 2024 for both mobile and desktop access. 
 
         **Schema** : 
-        {"disease_name1": [{"project": "string",
+        {"disease_name1": [{"project": "string", 
                             "granularity": "string",
                             "timestamp": "string",
                             "agent": "string",
