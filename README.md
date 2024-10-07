@@ -7,16 +7,16 @@ DATA 512 Homework 1: Professionalism & Reproducibility
     - The list of articles is determined in the rare-disease_cleaned.AUG.2024.csv file.
 
 ## License:
-  - [Wikimedia API Reference](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html) 
+ - [Wikimedia API Reference](https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/reference/page-views.html) 
       - Creative Commons Attribution-ShareAlike 3.0 (CC-BY-SA 3.0) 
       - GNU Free Documentation License (GFDL) 
       - My dataset was created using the Wikimedia API, which is governed by their Terms of Use. By utilizing this data, you agree to comply with the attribution requirements specified by the CC-BY-SA license. Any adaptations or modifications of the dataset must be shared under a similar license. Care should be taken to respect user privacy and adhere to applicable data protection regulations. All interactions with the API should comply with its usage guidelines.
 
-    - [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv) 
-        - Creative Commons (CC-BY license)
+ - [rare-disease_cleaned.AUG.2024.csv](rare-disease_cleaned.AUG.2024.csv) 
+      - Creative Commons (CC-BY license)
     
-    - [wp_article_views_example.ipynb](wp_article_views_example.ipynb) <br>
-    This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
+ - [wp_article_views_example.ipynb](wp_article_views_example.ipynb) <br>
+      - This code example was developed by Dr. David W. McDonald for use in DATA 512, a course in the UW MS Data Science degree program. This code is provided under the [Creative Commons](https://creativecommons.org) [CC-BY license](https://creativecommons.org/licenses/by/4.0/). Revision 1.3 - August 16, 2024
 
 ## Project Structure
 project-main/ <br>
@@ -88,6 +88,5 @@ To run this project, you will need the following Python packages installed:
 - matplotlib (3.8.0)
 - requests   (2.31.0)
 - seaborn    (0.12.2)
-
 
 Python version: 3.11.9
